@@ -2,7 +2,7 @@
 
 # Siamese Network for Image Pair Similarity
 
-This project implements a **Siamese Neural Network** in **PyTorch** using a pretrained **ResNet-18** as a feature extractor. The model learns to predict whether two input images belong to the same class or not.
+This project implements a **Siamese Neural Network** in **PyTorch** using a pretrained **ResNet-18** as a feature extractor. The model learns to predict whether two input images belong to the same class or not. This is one of two projects from my Master's work.
 
 ## Overview
 
