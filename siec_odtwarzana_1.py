@@ -21,7 +21,7 @@ tf.random.set_seed(42)
 IMG_HEIGHT, IMG_WIDTH = 32, 32
 INPUT_SHAPE = (IMG_HEIGHT, IMG_WIDTH, 1)
 NUM_CLASSES = 40
-DATASET_PATH = r"C:\Users\misie\Desktop\praca_magisterska\baza_danych\ORL_dataset"
+DATASET_PATH = r"your_PATH_to_dataset"
 BATCH_SIZE = 64
 
 # data load (6train/4test)
