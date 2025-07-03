@@ -37,7 +37,7 @@ Bar chart comparing metric averages
 
 Grid of image pairs with predicted similarity scores, highlighting false negatives
 
-📁 Code Structure
+## 📁 Code Structure
 PairDataset: Custom dataset that generates matching/non-matching image pairs
 
 SimpleNetwork: Siamese network architecture using ResNet-18
@@ -58,7 +58,7 @@ Bar charts
 
 Sample image pairs
 
-📌 Notes
+## 📌 Notes
 The model uses BCEWithLogitsLoss and outputs a similarity score between 0 and 1.
 
 Thresholds for classification can be tuned; default evaluation runs for thresholds between 0.01 and 0.4.
