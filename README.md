@@ -31,5 +31,10 @@ ORL_dataset/
 - Plotting training and test accuracy/loss.
 - Saves accuracy/loss chart as `accuracy_loss_plot.png`.
 
+## Notes
+- Images are resized to 32x32 grayscale before training.
+- Model is trained with Adam optimizer and categorical_crossentropy loss.
+- Set random seeds for reproducibility.
+
 ## Results
 
