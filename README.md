@@ -64,3 +64,6 @@ The model uses BCEWithLogitsLoss and outputs a similarity score between 0 and 1.
 Thresholds for classification can be tuned; default evaluation runs for thresholds between 0.01 and 0.4.
 
 Pair selection always includes one "anchor" image per class (the first in that class), and randomly selected positive or negative examples.
+
+## Results
+
