@@ -31,17 +31,17 @@ dataset/
 ## Outputs & Visualizations
 The script produces:
 
-Training loss plot over epochs
+- Training loss plot over epochs
 
-Precision, Recall, and F1-score vs. threshold line chart
+- Precision, Recall, and F1-score vs. threshold line chart
 
-Summary table of evaluation metrics
+- Summary table of evaluation metrics
 
-Bar chart comparing metric averages
+- Bar chart comparing metric averages
 
-Grid of image pairs with predicted similarity scores, highlighting false negatives
+- Grid of image pairs with predicted similarity scores, highlighting false negatives
 
-## 📁 Code Structure
+## Code Structure
 PairDataset: Custom dataset that generates matching/non-matching image pairs
 
 SimpleNetwork: Siamese network architecture using ResNet-18
