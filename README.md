@@ -14,15 +14,19 @@ This project implements a **Siamese Neural Network** in **PyTorch** using a pret
 ## Dataset Structure
 
 The data should follow the structure expected by `torchvision.datasets.ImageFolder`:
+
+```
 dataset/
 ├── class_0/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ └── ...
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
 ├── class_1/
-│ ├── image1.jpg
-│ └── ...
+│   ├── image1.jpg
+│   └── ...
 └── ...
+```
+
 
 ## Outputs & Visualizations
 The script produces:
