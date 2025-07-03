@@ -1,6 +1,6 @@
 # Face recognition - basic experiment
 
-This project implements a Convolutional Neural Network (CNN) using TensorFlow/Keras to recognize human faces from the **ORL Face Dataset**. It includes preprocessing, model training, evaluation, and performance visualization.
+This project implements a Convolutional Neural Network (CNN) using TensorFlow/Keras to recognize human faces from the ORL Face Dataset. It includes data preprocessing, model architecture design, training, evaluation, and visualization of performance metrics such as accuracy and loss. This work represents the first of two main tasks undertaken as part of my Master's thesis, which focuses on the application of deep learning techniques for face recognition and biometric identification.
 
 ## Dataset
 
