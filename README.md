@@ -1,5 +1,4 @@
 # Face recognition - basic experiment
-# ORL Face Recognition with CNN (Keras/TensorFlow)
 
 This project implements a Convolutional Neural Network (CNN) using TensorFlow/Keras to recognize human faces from the **ORL Face Dataset**. It includes preprocessing, model training, evaluation, and performance visualization.
 
@@ -17,6 +16,12 @@ ORL_dataset/
 ├── s2/
 └── ...
 ```
+
+## Model Architecture
+- Conv Layer 1: 16 filters, 3x3 kernel + ReLU + MaxPooling + BatchNorm + Dropout
+- Conv Layer 2: 32 filters, 3x3 kernel + ReLU + MaxPooling + BatchNorm + Dropout
+- Dense Layer: 2048 neurons + ReLU + Dropout
+- Output Layer: Softmax (40 classes)
 
 ## Features
 
