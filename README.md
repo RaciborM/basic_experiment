@@ -4,14 +4,14 @@
 
 This project implements a **Siamese Neural Network** in **PyTorch** using a pretrained **ResNet-18** as a feature extractor. The model learns to predict whether two input images belong to the same class or not.
 
-## 🧠 Overview
+## Overview
 
 - Uses `torchvision.models.resnet18` as the base CNN encoder.
 - Trains on image pairs generated from class labels using a custom `PairDataset`.
 - Evaluates precision, recall, and F1-score across various decision thresholds.
 - Includes visualizations of image pairs with predicted similarity scores.
 
-## 🗂️ Dataset Structure
+## Dataset Structure
 
 The data should follow the structure expected by `torchvision.datasets.ImageFolder`:
 dataset/
@@ -24,7 +24,7 @@ dataset/
 │ └── ...
 └── ...
 
-Outputs & Visualizations
+## Outputs & Visualizations
 The script produces:
 
 Training loss plot over epochs
